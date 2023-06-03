@@ -8,7 +8,7 @@ python3.10 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-
+Each dataset splitting into files with size under 100 MB.
 Unzip artifacts from `output.zip` archive.
 
 `PREPARE.md` file contains information about setting up machine with GPU.
