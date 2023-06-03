@@ -9,19 +9,18 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Unzip datasets in `data` directory
+Unzip artifacts from `output.zip` archive.
 
 `PREPARE.md` file contains information about setting up machine with GPU.
 
 ## Structure
 
-1. `data` directory contains initial GTSRB dataset and two additional datasets. One is `synth`, generated train dataset from GAN and `merged`, train dataset from GTSRB and `synth` combined.
-2. `output` directory contains artifacts of two models: classifier and gan. Each directory contains checkpoints for loading model, csv file with metrics from training process and visualisation of that metrics on image. There are 3 classification artifacts for real, synthetic and merged datasets.
-3. `gan` directory contains high-level functions and classes for conditional GAN model.
-4. `classification` directory contains high-level functions and classes for classification model.
-5. `data.py` contains low-level functions for loading datasets.
-6. `classes.py` contains human readable names of classes from dataset.
-7. `*_main.py` scripts are entrypoints for executing scripts.
+1. `output.zip` contains directory with artifacts of both models: classifier and gan. Each directory contains checkpoints for loading model, csv file with metrics from training process and visualisation of that metrics on image. There are 3 classification artifacts for real, synthetic and merged datasets.
+2. `gan` directory contains high-level functions and classes for conditional GAN model.
+3. `classification` directory contains high-level functions and classes for classification model.
+4. `data.py` contains low-level functions for loading datasets.
+5. `classes.py` contains human readable names of classes from dataset.
+6. `*_main.py` scripts are entrypoints for executing scripts.
 
 ## GAN
 

@@ -160,6 +160,4 @@ cython_debug/
 .idea/
 
 # Folders
-data/synth
-data/real
-data/merged
+output/gan/15*
