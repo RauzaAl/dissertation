@@ -161,6 +161,9 @@ cython_debug/
 
 # Folders
 output/gan/15*
+data/merged
+data/real
+data/synth
 
 # Zip files
 *.zip
