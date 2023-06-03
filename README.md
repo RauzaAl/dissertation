@@ -15,7 +15,7 @@ Unzip artifacts from `output.zip` archive.
 
 ## Structure
 
-1. `output.zip` contains directory with artifacts of both models: classifier and gan. Each directory contains checkpoints for loading model, csv file with metrics from training process and visualisation of that metrics on image. There are 3 classification artifacts for real, synthetic and merged datasets.
+1. `output` directory with artifacts of both models: classifier and gan. Each directory contains checkpoints for loading model, csv file with metrics from training process and visualisation of that metrics on image. There are 3 classification artifacts for real, synthetic and merged datasets. (Currently GAN artifacts cannot be uploaded because of file size limit)
 2. `gan` directory contains high-level functions and classes for conditional GAN model.
 3. `classification` directory contains high-level functions and classes for classification model.
 4. `data.py` contains low-level functions for loading datasets.
